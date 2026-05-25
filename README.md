@@ -6,6 +6,35 @@ since we used dynamic ip it will constantly change
 match the ip 
 or can set anywhere (0.0.0.0) for educational purpose 
 
+1. NETWORK problem (can’t reach server)
+symptom: timeout
+meaning: traffic blocked before reaching EC2
+
+→ check:
+
+Security Group
+IP address
+instance running
+
+2. SERVICE problem (server reachable, but not working)
+symptom: connection refused / 502 / site down
+meaning: server is reachable, but nginx/app is dead
+
+→ check:
+
+systemctl status nginx
+port listening
+
+3. ACCESS problem (login issue)
+symptom: permission denied
+meaning: SSH reached server, but authentication failed
+
+→ check:
+
+key file (.pem)
+username
+permissions
+
 📌 Overview
 This project demonstrates troubleshooting skills on an AWS EC2 instance by intentionally breaking and fixing common infrastructure issues.
 
