@@ -86,12 +86,12 @@ Root Cause:
 Resolution:
 - Restored SSH access
 
-📌 Overview
+Overview
 This project demonstrates troubleshooting skills on an AWS EC2 instance by intentionally breaking and fixing common infrastructure issues.
 
 
 
-🎯 Goal
+Goal
 Learn how to diagnose and fix:
 - Service failures (Nginx)
 - Network access issues (Security Groups)
@@ -99,18 +99,18 @@ Learn how to diagnose and fix:
 
 
 
-🧱 Skills Practiced
+Skills Practiced
 - Linux service management
 - AWS Security Groups
 - SSH troubleshooting
 - Basic network debugging
 - System recovery mindset
 
-🧪 Labs Included
+Labs Included
 - Lab 1: Nginx service failure and recovery
 - Lab 2: HTTP port blocked via Security Group
 - Lab 3: SSH access failure simulation
 
 
-🧠 Key Learning Outcome
+Key Learning Outcome
 Understanding how cloud infrastructure fails and how to systematically diagnose and fix issues.
