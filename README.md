@@ -46,6 +46,46 @@ username
 
 permissions
 
+
+Lab 1 - Nginx Service Failure
+Symptoms:
+- Website unavailable
+
+Diagnosis:
+- Checked service status
+
+Root Cause:
+- Nginx service stopped
+
+Resolution:
+- Restarted service
+
+Lab 2 - HTTP Access Failure
+Symptoms:
+- Browser timeout
+
+Diagnosis:
+- Reviewed Security Group rules
+
+Root Cause:
+- Port 80 blocked
+
+Resolution:
+- Restored HTTP rule
+
+Lab 3 - SSH Access Failure
+Symptoms:
+- SSH connection timeout
+
+Diagnosis:
+- Reviewed Security Group rules
+
+Root Cause:
+- Port 22 access restricted
+
+Resolution:
+- Restored SSH access
+
 📌 Overview
 This project demonstrates troubleshooting skills on an AWS EC2 instance by intentionally breaking and fixing common infrastructure issues.
 
